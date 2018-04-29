@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <title>Friend Finder</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Friend Survey:</h1>
+            <hr>
+            <div class="row">
+
+                <div class="col-lg-12">
+
+
+                    <div class="container">
+                        <h2>Take the Survey!</h2>
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 control-label">Name:</label>
+                                <div class="col-sm-3">
+                                    <input type="name" class="form-control inputstl" id="name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label">Email:</label>
+                                <div class="col-sm-5">
+                                    <input type="email" class="form-control inputstl" id="email1" placeholder="Enter Email">
+                                </div>
+                            </div>
+                            <h4>1 = strongly disagree, 5 = strongly agree</h3>
+                                <div class="form-group">
+                                    <label for="q1" class="col-sm-2 control-label">Do you like dogs?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios1" id="Radios1" value="one">
+                                            <label>
+                                            1
+                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios1" id="Radios1" value="two">
+                                            <label>
+                                            2
+                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios1" id="Radios1" value="three">
+                                            <label>
+                                            3
+                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios1" id="Radios1" value="four">
+                                            <label>
+                                            4
+                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios1" id="Radios1" value="five">
+                                            <label>
+                                            5
+                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="q2" class="col-sm-2 control-label">Do you like cats?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios2" id="Radios2" value="one">
+                                            <label>
+                                                1
+                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios2" id="Radios2" value="two">
+                                            <label>
+                                                2
+                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios2" id="Radios2" value="three">
+                                            <label>
+                                                3
+                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios2" id="Radios2" value="four">
+                                            <label>
+                                                4
+                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios2" id="Radios2" value="five">
+                                            <label>
+                                                5
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="q3" class="col-sm-2 control-label">Do you like beer?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios3" id="Radios3" value="one">
+                                            <label>
+                                                    1
+                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios3" id="Radios3" value="two">
+                                            <label>
+                                                    2
+                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios3" id="Radios3" value="three">
+                                            <label>
+                                                    3
+                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios3" id="Radios3" value="four">
+                                            <label>
+                                                    4
+                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios3" id="Radios3" value="five">
+                                            <label>
+                                                    5
+                                                </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="q4" class="col-sm-2 control-label">Do you like Whiskey?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios4" id="Radios4" value="one">
+                                            <label>
+                                                        1
+                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios4" id="Radios4" value="two">
+                                            <label>
+                                                        2
+                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios4" id="Radios4" value="three">
+                                            <label>
+                                                        3
+                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios4" id="Radios4" value="four">
+                                            <label>
+                                                        4
+                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios4" id="Radios4" value="five">
+                                            <label>
+                                                        5
+                                                    </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="q5" class="col-sm-2 control-label">Do you like smoking?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios5" id="Radios5" value="one">
+                                            <label>
+                                                            1
+                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios5" id="Radios5" value="two">
+                                            <label>
+                                                            2
+                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios5" id="Radios5" value="three">
+                                            <label>
+                                                            3
+                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios5" id="Radios5" value="four">
+                                            <label>
+                                                            4
+                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios5" id="Radios5" value="five">
+                                            <label>
+                                                            5
+                                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="q6" class="col-sm-2 control-label">Do you like going to the beach?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios6" id="Radios6" value="one">
+                                            <label>
+                                                                1
+                                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios6" id="Radios6" value="two">
+                                            <label>
+                                                                2
+                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios6" id="Radios6" value="three">
+                                            <label>
+                                                                3
+                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios6" id="Radios6" value="four">
+                                            <label>
+                                                                4
+                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios6" id="Radios6" value="five">
+                                            <label>
+                                                                5
+                                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="q6" class="col-sm-2 control-label">Do you like to party?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios7" id="Radios7" value="one">
+                                            <label>
+                                                                    1
+                                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios7" id="Radios7" value="two">
+                                            <label>
+                                                                    2
+                                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios7" id="Radios7" value="three">
+                                            <label>
+                                                                    3
+                                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios7" id="Radios7" value="four">
+                                            <label>
+                                                                    4
+                                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios7" id="Radios7" value="five">
+                                            <label>
+                                                                    5
+                                                                </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="q6" class="col-sm-2 control-label">Do you like coding?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios8" id="Radios8" value="one">
+                                            <label>
+                                                                        1
+                                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios8" id="Radios8" value="two">
+                                            <label>
+                                                                        2
+                                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios8" id="Radios8" value="three">
+                                            <label>
+                                                                        3
+                                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios8" id="Radios8" value="four">
+                                            <label>
+                                                                        4
+                                                                    </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios8" id="Radios8" value="five">
+                                            <label>
+                                                                        5
+                                                                    </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="q6" class="col-sm-2 control-label">Do you like coffee?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios9" id="Radios9" value="one">
+                                            <label>
+                                                                            1
+                                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios9" id="Radios9" value="two">
+                                            <label>
+                                                                            2
+                                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios9" id="Radios9" value="three">
+                                            <label>
+                                                                            3
+                                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios9" id="Radios9" value="four">
+                                            <label>
+                                                                            4
+                                                                        </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios9" id="Radios9" value="five">
+                                            <label>
+                                                                            5
+                                                                        </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="q6" class="col-sm-2 control-label">Do you like playing video games?</label>
+                                    <br>
+                                    <div class="col-sm-5">
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios10" id="Radios10" value="one">
+                                            <label>
+                                                                                1
+                                                                                </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios10" id="Radios10" value="two">
+                                            <label>
+                                                                                2
+                                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios10" id="Radios10" value="three">
+                                            <label>
+                                                                                3
+                                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios10" id="Radios10" value="four">
+                                            <label>
+                                                                                4
+                                                                            </label>
+                                        </div>
+                                        <div class="radio radio-danger">
+                                            <input type="radio" name="Radios10" id="Radios10" value="five">
+                                            <label>
+                                                                                5
+                                                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-4">
+                                        <a href="/submit"> <button type="submit" class="btn btn-lg btn-block btn-success">Submit!</button> </a>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#submit').on("click", function() {
+            var userInput = {
+                name: $('#name').val().trim(),
+                email: $('#email').val().trim(),
+                scores: [$('#Radios1').val().trim(), $('#Radios2').val().trim(), $('#Radios3').val().trim(), $('#Radios4').val().trim(), $('#Radios5').val().trim(), $('#Radios6').val().trim(), $('#Radios7').val().trim(), $('#Radios8').val().trim(), $('#Radios9').val().trim(), $('#Radios10').val().trim()]
+            };
+            alert(userInput);
+
+        });
+    });
+</script>
+
+</html>
